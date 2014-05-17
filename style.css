@@ -1,0 +1,45 @@
+body {
+  color: white;
+  font-family: courier, monospace;
+  background-color: gray;
+}
+
+h3 {
+  text-align: center;
+}
+#board {
+  background: #ccc;
+  width: 360px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+.reset {
+  float: right;
+  margin-top: 10px;
+}
+#board .space {
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+}
+
+#board .space:hover {
+  cursor: pointer;
+  background: #ddd;
+  border: red solid 3px ;
+}
+
+#board .space.hal {
+  background: url("img/HAL9000.svg.png");
+  background-size: 100% 100%;
+}
+#board .space.human {
+  background: url("img/Dave1.jpg");
+  background-size: 100% 100%;
+}
+
